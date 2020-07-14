@@ -49,6 +49,6 @@ Remove-PSSession -Name  $SessionName.Name
 
 ConnectToExchangeOnline
 sleep -Seconds 10
-#AddOwnersToGroup
+AddOwnersToGroup
 sleep -Seconds 10
 Disconnect
